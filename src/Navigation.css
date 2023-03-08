@@ -1,0 +1,46 @@
+.Navigation {
+    width: 15vw;
+    border-right: solid 2px #E9ECEF;
+    height: 100vh;
+    color: #222222;
+    background-color: white;
+
+}
+
+.Navigation__logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 10px;
+    border-bottom: solid 2px #E9ECEF;
+}
+
+.Navigation__logo label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-left: 5px;
+}
+
+
+.Navigation__menu ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.Navigation__menu ul li {
+    margin: 15px 0px;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.Navigation__menu ul li a {
+    text-decoration: none;
+    color: #222222;
+    margin-left: 10px;
+}
+
+.Navigation__menu ul li:hover {
+    color: #007BFF;
+    background-color: #F6F2FF;
+    border-radius: 7px;
+}

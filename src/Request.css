@@ -1,0 +1,83 @@
+.request-order{
+    background-color: white;
+    border:solid 2px #E9ECEF;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.request-order form{
+    padding: 20px;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.multi-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.multi-group div{
+    display: flex;
+}
+
+.request-title{
+    font-weight: bold;
+    width: 110px;
+    font-size: 0.95rem;
+}
+
+.request-data{
+    min-width: 150px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.description{
+    border: solid 1px #E9ECEF;
+    height: 60px;
+    padding: 10px;
+    width: 50%;
+}
+.short{
+    border: solid 1px #E9ECEF;
+    height: 15px;
+    padding: 10px;
+    width: 50%;
+}
+.short2{
+    border: solid 1px #E9ECEF;
+    height: 5px;
+    padding: 10px;
+    width: 50%;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-group .btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: wheat;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn-accept{
+    background-color: #813EF9 !important;
+}
+
+.btn-reject{
+    background-color: #F15C5C !important;
+}

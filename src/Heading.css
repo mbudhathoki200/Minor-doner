@@ -1,0 +1,8 @@
+.heading{
+    height: 50px;
+    width: 85vw;
+    display: flex;
+    border-bottom: solid 2px #E9ECEF;
+    align-items: center;
+    background-color: white;
+}
